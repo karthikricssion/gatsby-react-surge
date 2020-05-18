@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../components/header';
+import Layout from '../components/layout';
 
 export default function About() {
     return(
-        <div>
-            <Header headerText="About myself" />
+        <Layout>
             <p>This section will explain about myself in much more detail.</p>
-        </div>
+        </Layout>
     )
 }

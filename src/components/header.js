@@ -1,5 +1,10 @@
 import React from 'react';
+import HeaderTextStyle from './header.module.scss'
 
 export default function Header(props) {
-    return <h1> {props.headerText}</h1>
+    return (
+        <h1>
+            <p className={HeaderTextStyle.text}>{props.headerText}</p>
+        </h1>
+    )
 }
