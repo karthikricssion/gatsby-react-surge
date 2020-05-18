@@ -1,6 +1,8 @@
 ### Gatsby Learning
 Trying out gatsby from scratch. Following the docs, The reason for choosing gatsby, It runs on ReactJs, Which i haven't worked much in that, So that i can experiments a lots of React stuff by learning. 
 
+Updated Surge [Demo](https://dirty-mark.surge.sh/)
+
 ### Things Learned
 1. Setup the gatsby environment
 2. About Surge 
@@ -33,6 +35,7 @@ Below are some usefull **surge** commands
 ```
 suge list // Will list all the domains, time, status
 surge teardown <PUBLISHED_DOMAIN_URL> to remove.
+surge --domain <PUBLISHED_DOMAIN_URL> <PUBLIC_FOLDER> // to update the site
 ```
 
 ### Ref

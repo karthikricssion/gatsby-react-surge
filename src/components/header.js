@@ -1,10 +1,13 @@
 import React from 'react';
-import HeaderTextStyle from './header.module.scss'
+import HeaderTextStyle from './header.module.scss';
+import { Link } from 'gatsby';
 
 export default function Header(props) {
     return (
         <h1>
-            <p className={HeaderTextStyle.text}>{props.headerText}</p>
+            <Link to='/' className={HeaderTextStyle.text}>
+                {props.headerText}
+            </Link>
         </h1>
     )
 }
